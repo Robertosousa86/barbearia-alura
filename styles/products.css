@@ -29,3 +29,38 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
+
+.products-container {
+  width: 940px; /*standard width for screens */
+  margin: 0 auto; /*We delegate to the browser to 
+  calculate the remaining width, divide by two, and add half on each side.*/
+  padding: 50px 0;
+}
+
+.products-container li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.products-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.products-description {
+  font-size: 18px;
+}
+
+.products-price {
+  font-size: 22px;
+  font-weight: bold;
+  /* margin: 10px 0 0; */
+  margin-top: 10px;
+}
