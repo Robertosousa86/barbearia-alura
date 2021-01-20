@@ -1,0 +1,31 @@
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.nav-box {
+  position: relative; /*that way the nav is inside the header*/
+  width: 940px; /*standard width for screens */
+  margin: 0 auto; /*We delegate to the browser to 
+  calculate the remaining width, divide by two, and add half on each side.
+  */
+}
+
+nav {
+  position: absolute; /*makes the header "on top" of everything*/
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
