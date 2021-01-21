@@ -22,6 +22,10 @@ nav li {
   margin: 0 0 0 15px;
 }
 
+nav a:hover {
+  color: #ee0f2d;
+}
+
 nav a {
   text-transform: uppercase;
   color: #000000;
@@ -47,6 +51,15 @@ nav a {
   padding: 30px 20px;
   border: 2px solid #000000;
   border-radius: 10px;
+}
+
+.products-container li:hover {
+  border-color: #ee0f2d;
+}
+ 
+.products-container li:hover h2 {
+  font-size: 35px;
+  font-style: oblique;
 }
 
 .products-container h2 {
