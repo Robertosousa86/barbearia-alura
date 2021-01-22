@@ -41,15 +41,15 @@ main {
 
 form {
   margin: 40px 0;
-} 
+}
 
 form label,
-form p {
+form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
 }
- 
+
 .standard-input {
   display: block;
   padding: 10px 25px;
@@ -59,6 +59,24 @@ form p {
 
 .checkbox {
   margin: 20px 0;
+}
+
+.submit {
+  width: 40%;
+  padding: 15px 0;
+  background: #ffa500;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all; /*modify all element properties*/
+}
+
+.submit:hover {
+  background: #ff8c00;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 footer {

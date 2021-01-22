@@ -39,18 +39,27 @@
       <label for="msg">Mensagem</label>
       <textarea class="standard-input" id="msg" cols="60" rows="10" required></textarea>
 
-      <div>
-        <p>Formas de contato:</p>
+      <fieldset>
+        <legend>Formas de contato:</legend>
         <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
 
         <label for="radio-tel"><input type="radio" name="contact" value="tel" id="radio-tel">Telefone</label>
 
         <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp"
             checked>Whatsapp</label>
-      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Qual a preferência no horário de atendimento?</legend>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
 
       <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
-        email?</label><input type="submit" value="Enviar formulário">
+        email?</label><input class="submit" type="submit" value="Enviar formulário">
     </form>
   </main>
 
