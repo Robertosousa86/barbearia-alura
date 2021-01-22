@@ -41,19 +41,24 @@ main {
 
 form {
   margin: 40px 0;
-}
+} 
 
-form label {
+form label,
+form p {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
 }
-
-form input {
+ 
+.standard-input {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 25px;
   margin: 0 0 20px;
   width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
 }
 
 footer {

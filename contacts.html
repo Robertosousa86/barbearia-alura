@@ -28,34 +28,30 @@
   <main>
     <form>
       <label for="name-surname">Nome e Sobrenome</label>
-      <input type="text" id="name-surname">
+      <input type="text" id="name-surname" class="standard-input" required>
 
       <label for="email">Email</label>
-      <input type="email" id="email">
+      <input type="email" id="email" class="standard-input" required>
 
       <label for="tel">Telefone</label>
-      <input type="text" id="tel">
+      <input type="tel" id="tel" class="standard-input" required>
 
       <label for="msg">Mensagem</label>
-      <textarea id="msg" cols="30" rows="10"></textarea>
+      <textarea class="standard-input" id="msg" cols="60" rows="10" required></textarea>
 
-      <div class="radio-container">
+      <div>
         <p>Forma de contato:</p>
-        <label for="radio-email">Email</label>
-        <input type="radio" name="contact" value="email" id="radio-email">
+        <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
 
-        <label for="radio-tel">Telefone</label>
-        <input type="radio" name="contact" value="tel" id="radio-tel">
+        <label for="radio-tel"><input type="radio" name="contact" value="tel" id="radio-tel">Telefone</label>
 
-        <label for="radio-whatsapp">Whatsapp</label>
-        <input type="radio" name="contact" value="whatsapp" id="radio-whatsapp">
+        <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp"
+            id="radio-whatsapp">Whatsapp</label>
       </div>
 
-      <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
-      <input type="submit" value="Enviar formulário">
-
+      <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label><input
+        type="submit" value="Enviar formulário">
     </form>
-
   </main>
 
   <footer>
