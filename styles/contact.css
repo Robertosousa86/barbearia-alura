@@ -1,0 +1,69 @@
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.nav-box {
+  position: relative; /*that way the nav is inside the header*/
+  width: 940px; /*standard width for screens */
+  margin: 0 auto; /*We delegate to the browser to 
+  calculate the remaining width, divide by two, and add half on each side.
+  */
+}
+
+nav {
+  position: absolute; /*makes the header "on top" of everything*/
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a:hover {
+  color: #ee0f2d;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form input {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  width: 50%;
+}
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background: url("../images/bg.jpg");
+}
+
+.copyright {
+  font-size: 13px;
+  color: #ffffff;
+  margin: 20px 0 0;
+}
