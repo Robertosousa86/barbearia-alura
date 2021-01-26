@@ -1,54 +1,148 @@
-/* body {
-} */
-
-header h1 {
-  /* text-align: center; */
-  padding-left: 20px;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-header img {
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.nav-box {
+  position: relative; /*that way the nav is inside the header*/
+  width: 940px; /*standard width for screens */
+  margin: 0 auto; /*We delegate to the browser to 
+  calculate the remaining width, divide by two, and add half on each side.
+  */
+}
+
+nav {
+  position: absolute; /*makes the header "on top" of everything*/
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a:hover {
+  color: #ee0f2d;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.banner {
   width: 100%;
 }
 
 .main {
-  background: #cccccc;
-  padding: 20px;
+  padding: 3em 0;
+  background: #fefefefe;
+  width: 940px; /*standard width for screens */
+  margin: 0 auto; /*We delegate to the browser to 
+  calculate the remaining width, divide by two, and add half on each side.
+  */
 }
 
-.text-align {
+.main-text {
   text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
 }
 
-p {
-  text-align: center;
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.main p {
+  margin: 0 0 1em;
 }
 
 #missao {
   font-size: 20px;
 }
 
-em strong {
-  color: #ff0000;
+.main em {
+  font-style: italic;
+}
+
+.main strong {
+  font-weight: bold;
 }
 
 .beneficios {
-  background: #ffffff;
-  padding: 20px;
+  padding: 3em 0;
+  background: #888888;
 }
 
-.beneficios ul {
+.beneficios-container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.beneficios-list {
+  width: 40%;
   display: inline-block;
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
 }
 
-.beneficios li {
-  font-style: italic;
-  /* text-decoration: none; */
-  list-style: none;
+.itens {
+  line-height: 1.5;
 }
 
-.beneficios img {
-  width: 50%;
+.itens:before {
+  content: "✶";
+}
+
+.itens:first-child {
+  font-weight: bold;
+  color: #ee0f2d;
+}
+
+.img-beneficios {
+  width: 60%;
+}
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background: url("../images/bg.jpg");
+}
+
+.copyright {
+  font-size: 13px;
+  color: #ffffff;
+  margin: 20px 0 0;
+}
+
+.map {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+.map-content {
+  width: 940px; /*standard width for screens */
+  margin: 0 auto; /*We delegate to the browser to 
+  calculate the remaining width, divide by two, and add half on each side.
+  */
+}
+
+.map p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.video {
+  width: 560px;
+  margin: 2em auto;
 }
