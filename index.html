@@ -4,45 +4,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <title>Barbearia Alura</title>
 </head>
 
 <body>
   <header>
-    <h1 id="header-text">Barbearia Alura</h1>
-    <img src="./images/banner.jpg" alt="barbearia Alura">
+    <div class="nav-box">
+      <h1><img src="./images/logo.png" alt="logo da Alura"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Produtos</a></li>
+          <li><a href="contacts.html">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <div class="main">
-    <h2 class="text-align">Sobre a Barbearia Alura</h2>
+  <img class="banner" src="./images/banner.jpg" alt="barbearia Alura">
+  <main>
+    <section class="main">
+      <h2 class="main-text">Sobre a Barbearia Alura</h2>
 
-    <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz
-      para o mercado o que há de melhor para o seu cabelo e barba. Fundada em
-      2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes
-      a cada dia.
-    </p>
+      <img class="utensilios" src="./images/utensilios.jpg" alt="Utensilios de um Barbeiro">
 
-    <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em>
-    </p>
+      <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz
+        para o mercado o que há de melhor para o seu cabelo e barba. Fundada em
+        2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes
+        a cada dia.
+      </p>
 
-    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da
-      moda. O atendimento possui padrão de excelência e agilidade, garantindo
-      qualidade e satisfação dos nossos clientes.</p>
-  </div>
+      <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e qualidade de vida aos
+            clientes"</strong>.</em>
+      </p>
 
-  <div class="beneficios">
-    <h3 class="text-align">Benefícios</h3>
+      <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da
+        moda. O atendimento possui padrão de excelência e agilidade, garantindo
+        qualidade e satisfação dos nossos clientes.</p>
+    </section>
 
-    <ul>
-      <li>Atendimento ao cliente</li>
-      <li>Espaço diferenciado</li>
-      <li>Localização</li>
-      <li>profissionais qualificados</li>
-    </ul>
+    <section class="map">
+      <h3 class="main-text">Nosso estabelecimento</h3>
+      <p>Nosso estabelecimento está localizado no centro da cidade.</p>
+      <div class="map-content">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117005.02510606417!2d-46.67402761460201!3d-23.589730907725915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1611615444217!5m2!1spt-BR!2sbr"
+          width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0">
+        </iframe>
+      </div>
+    </section>
 
-    <img src="./images/beneficios.jpg" alt="Beneficios">
-  </div>
+    <section class="beneficios">
+      <h3 class="main-text">Benefícios</h3>
+
+      <div class="beneficios-container">
+        <ul class="beneficios-list">
+          <li class="itens">Atendimento ao cliente</li>
+          <li class="itens">Espaço diferenciado</li>
+          <li class="itens">Localização</li>
+          <li class="itens">profissionais qualificados</li>
+          <li class="itens">Pontualidade</li>
+          <li class="itens">Limpeza</li>
+        </ul><img class="img-beneficios" src="./images/beneficios.jpg" alt="Beneficios">
+      </div>
+
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="./images/logo-branco.png" alt="logo Alura">
+    <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+  </footer>
 </body>
 
 </html>
